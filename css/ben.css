@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+/*	background: #F5F5ED;*/
+/*	background: #EDEDED;
+*/	
+	background: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
+/*	border-top: 10px solid #6D6D6D;*/
+}
+
+.container_12 {
+	box-shadow: 	
+}
+
+div.top {
+	height: 24px;
+	margin: 0 0 10px 0;
+	/*background: #6D6D6D;
+	-moz-box-shadow: 0px 6px 6px #ddd;
+	-webkit-box-shadow: 0px 6px 6px #ddd;
+	box-shadow: 0px 0px 0px #ddd;*/
+	background: url(top.gif) top left repeat-x;
+
+}
+
+div.separator {
+	border-top: thin solid #6D6D6D;	
+	padding-top: 30px;
+}
+
+h1 {
+	font-size: 25px;	
+}
+
+h2 {
+/*	color: #6d6d6d;
+*/	color: #494949;
+	font-size: 16px;
+	margin-bottom: 14px;
+}
+
+h2.pagetitle {
+	color: #05B5BD;	
+	font-family: Times New Roman, Times, sans-serif;
+	font-style: italic;
+	font-weight: 100;
+}
+
+p {
+	color: #6D6D6D;	
+}
+
+div.grey {
+	border-bottom: thin solid #C1C1C1;	
+}
+
+div.name {	
+	margin: 15px 0 0 10px;
+}
+
+span.first {
+	color: #6D6D6D;
+}
+
+span.last {
+	color: #393939;
+}
+
+span.media {
+	color: #05B5BD;
+	font-family: Times New Roman, Times, serif;
+	font-style: italic;
+	font-size: 14px;
+	width: 40px;
+	display:block;
+	float: right;
+    margin: 64px 70px 0 0;
+    width: 40px;
+}
+
+img.logo-bg {
+	background-color: #05b5bd;	
+}
+
+div.quote {
+	color: #6D6D6D;
+	font-weight: 200;
+	margin: -6px 0 0 8px;
+	padding: 0;
+	/*font-family: Times New Roman, Times, serif;
+	font-style: italic;*/
+	font-size: 14px;
+	clear: left;	
+}
+
+div.nav {
+	text-align: right;	
+	margin: 85px 10px 0;
+	float: right;
+	/*font-family: "Times New Roman", Times, serif;*/
+}
+
+div.nav ul {
+	float: right;
+	height: 25px;
+		
+}
+
+div.nav ul li{
+	list-style: none;
+	display: inline;
+	font-size: 15px;
+	color: #aaa;	
+	width: auto;
+	font-weight: 200;
+}
+
+div.nav ul a.current {
+	color:#393939;	
+	font-weight: 400;
+	
+}
+
+div.nav ul li a{
+/*	font-style: italic;
+*/	text-decoration: none;
+	color: #6D6D6D;	
+	
+}
+
+div#foot {
+	background: url("bottom.gif") repeat-x scroll left top #393939;
+	min-height: 150px;
+	margin: 48px 0 0;
+	width: 100%;
+	color: white;	
+}
+
+div#innerfoot {
+	width: 940px;
+	margin: 15px auto 0 ;
+	padding: 10px 10px 0;	
+}

@@ -1,0 +1,173 @@
+/*
+Theme Name: Tribune
+Theme URI: http://frostpress.com/themes/tribune/
+Description: Two-column 'Roman' theme in very soft colors of white and sand. Content softly accented by half-transparent borders and slightly smudge backgrounds, creating a old-looking and beutiful theme that would make any true Roman proud.
+Version: 1.0.1
+Author: Frostpress
+Author URI: http://frostpress.com
+Tags: light, white, brown, two-columns, right-sidebar, fixed-width, sticky-post, threaded-comments
+
+This theme is released under GPL (http://www.opensource.org/licenses/gpl-3.0.html)
+
+"Nemo enim fere saltat sobrius, nisi forte insanit."
+*/
+
+/* basic */
+body { margin:0px; padding:0px; background:#F2F0EE url('images/bg.jpg') center top no-repeat; font:normal 13px/170% Tahoma, Geneva, Verdana, sans-serif; color:#444444; }
+a { color:#d86600; text-decoration:none; outline:none; }
+a:hover { color:#FF8B22; text-decoration:none; }
+input { font:normal 12px/170% Verdana, Helvetica, Tahoma; }
+ul { margin:0px 10px 0px 10px; padding:0px 0px 5px 20px; list-style:square; }
+ol { margin:0px 10px 0px 10px; padding:0px 0px 5px 20px; list-style:upper-roman; }
+p { margin:11px 0px 11px 0px; }
+blockquote { background-color:#F0EFEE; border:solid 1px #DDDDDD; padding:2px 10px 2px 10px; font:normal 13px/170% Georgia, 'Times New Roman', Times, serif; font-style:italic; color:#666666; }
+blockquote blockquote { background-color:#FCFCFC; }
+input, textarea { background-color:#F4F3F2; border:solid 1px #DDDDDD; padding:6px; font:normal 13px/150% Tahoma, Geneva, Verdana, sans-serif; color:#666666; }
+input:hover, textarea:hover { border:solid 1px #C8C8C8; }
+
+/* structure */
+.outerwrap { background:url('images/bg_footer.jpg') center bottom no-repeat; }
+.wrap { width:920px; margin:0px auto 0px; }
+
+	.topbar { font-size:11px; overflow:hidden; }
+
+		.menu { overflow:hidden; list-style:none; margin:0px; padding:0px; font:normal 11px/100% Georgia, 'Times New Roman', Times, serif; text-transform:uppercase; letter-spacing:1px; }
+			.menu li { display:inline; }
+			.menu li a { float:left; display:block; color:#999999; padding:0px 10px 0px 10px; border-left:solid 1px #DDDDDD; }
+			.menu li a:hover { color:#333333; }
+			.menu li a.menu-home { border:0; padding-left:0px; }
+			.menu li a.menu-subscribe { color:#FF983C; float:right; border:0; padding-right:0px; }
+			.menu li a.menu-subscribe:hover { color:#d86600; }
+		.topbar h1 { font:bold 16px/100% Arial, Helvetica, sans-serif; padding:0px; margin:0px; }
+			.topbar h1 a { color:#666666; }
+		
+	.logo { overflow:hidden; margin:40px 0px 40px 40px; }
+		.logo h1 { font:normal 40px/150% Georgia, 'Times New Roman', Times, serif; text-transform:uppercase; margin:0px; }
+			.logo h1 a { color:#666666; }
+			.logo h1 a:hover { color:#333333; }
+		.logo h4 { font:normal 14px/150% Georgia, 'Times New Roman', Times, serif; margin:0px; color:#999999; font-style:italic; }
+
+	.innerwrap { overflow:hidden; }
+		.pageinfo { text-align:center; color:#777777; }
+		.c1 { width:600px; float:left; overflow:hidden; padding:0px 0px 0px 0px; margin:0px 20px 0px 0px; }
+		.c2 { width:300px; float:left; overflow:hidden; padding:20px 0px 0px 0px; color:#666666; }
+			.c2 a { color:#E37C31; }
+			.c2 a:hover { color:#d86600; }
+
+	.footer { padding:40px 0px 20px 0px; color:#999999; text-align:center; overflow:hidden; }
+		.footer a { color:#999999; border-bottom:dotted 1px #999999; }
+
+
+/* box wrapper */
+.wrapout { background:#F0EFEE; padding:4px; overflow:hidden; }
+	.topbar.wrapout { background:rgba(100, 100, 100, 0.05); padding-top:0px; }
+	.post.wrapout { background:rgba(100, 100, 100, 0.05); }
+.wrapin { background-color:#FFFFFF; border:solid 1px #DDDDDD; padding:20px; overflow:hidden; }
+	.topbar .wrapin { border-top:0; padding:12px 20px 12px 20px; }
+	.post .wrapin { background:#FFFFFF url('images/bg_white.jpg') left top repeat-y; }
+	.post-foot .wrapin { padding:10px; }
+	.comment .wrapin { padding:10px; }
+	.pingback .wrapin { padding:5px 10px 5px 10px; }
+
+
+/* posts */
+.post { margin:0px 0px 20px 0px; }
+	.post h1.post-head { font:normal 24px/140% Georgia, 'Times New Roman', Times, serif; margin:0px 0px 10px 0px; padding:0px; }
+	.post h1.post-head a { color:#666666; }
+	.post h1.post-head a:hover { color:#444444; }
+
+	.post-date { float:right; font:normal 16px/150% Georgia, 'Times New Roman', Times, serif; color:#CCCCCC; margin:0px 0px 0px 20px; }
+
+	.post-text { overflow:hidden; }
+		.continue-reading { margin:5px 0px 5px 0px; padding:5px 10px 5px 0px; font-weight:bold; display:block; }
+		.post h1, h2, h3, h4, h5 { margin:10px 0px 10px 0px; }
+		.post h1 { font-size:22px; }
+		.post h2 { font-size:18px; }
+		.post h3 { font-size:16px; }
+		.post h4 { font-size:14px; }
+		.post h5 { font-size:12px; }
+
+		.submenu { float:right; margin:0px 0px 10px 10px; }
+
+	.post-foot { overflow:hidden; margin:20px 0px 0px 0px; color:#999999; }
+		.post-foot a { color:#999999; border-bottom:dotted 1px #CCCCCC; }
+		.post-foot a:hover { color:#777777; }
+		.post-comments, .post-edit { float:right; }
+		.post-category span, .post-tag span {  }
+		.post-author { float:right; display:none; }
+
+
+/* comments */
+	h2#comments { margin:30px 0px 10px 0px; }
+	.commentlist { padding:0px; margin:0px; overflow:hidden; }
+	.commentlist ul { margin:0px; padding:0px; list-style:none; list-style-image:none; }
+	.commentlist li { margin:0px; padding:0px; overflow:hidden; }
+
+	ul.children { margin:0px 0px 0px 25px; }
+	.children .avatar { width:35px; height:35px; }
+
+	.comment { overflow:hidden; margin:0px 0px 10px 0px; }
+	/*.comment.bypostauthor { background-color:#EEE3D5; }*/
+	.comment-head { background-color:#E3DDD7; padding:3px 10px 3px 10px; }
+	.comment-avatar { float:left; overflow:hidden; padding-right:10px; }
+	.comment-text { overflow:hidden; }
+		.comment-meta { overflow:hidden; border-bottom:dashed 1px #CCCCCC; padding:0px 0px 5px 0px; }
+			.comment-writer { display:inline; font-weight:bold; }	
+			.comment-date { display:inline; margin-left:5px; }
+			.comment-date a, .comment-reply a { color:#999999; }
+			.comment-date a:hover, .comment-reply a:hover { color:#666666; }
+			.comment-reply { float:right; }
+
+	.trackbacklist { margin:20px 0px 0px 0px; padding:0px; }
+	.trackbacklist li { margin:0px 0px 10px 0px; overflow:hidden; }
+
+	#respond #comment { width:97%; max-width:97%; }
+
+
+/* bottom navigation */
+.navigation { overflow:hidden; }
+	.navigation h2 { font:normal 16px/150% Georgia, Times New Roman, Times, serif; }
+	.navigation h2 a { color:#999999; }
+	.navigation h2 a:hover { color:#666666; }
+
+
+/* widgets */
+#widgets { list-style:none; padding:0px; margin:0px; }
+	.widget { margin:0px 0px 20px 0px; padding:0px; }
+		.widget h2 { overflow:hidden; margin:0px 0px 10px 0px; color:#999999; text-transform:uppercase; letter-spacing:1px; border-bottom:solid 1px #DBDBDB; font:normal 12px/150% Georgia, 'Times New Roman', Times, serif; }
+
+	#searchform input { width:286px; }
+
+
+/* Wordpress defaults and images */
+.post .post-text img { background-color:#F0EFEE; border:solid 1px #DDDDDD; padding:4px; }
+p img { padding:0; max-width:540px; }
+img.centered { display:block; margin-left:auto; margin-right:auto; }
+img.alignright { padding:0px; margin:0px 0px 2px 7px; display:inline; }
+img.alignleft { padding:0px; margin:0px 7px 2px 0px; display:inline; }
+.alignright { float:right; }
+.alignleft { float:left }
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+/* Captions */
+.wp-caption { text-align: center; background-color:#F0EFEE; border:solid 1px #DDDDDD; padding:4px 0px 4px 0px; margin:0px; max-width:548px !important; overflow:hidden; }
+.wp-caption.aligright { margin:0px 0px 7px 7px; }
+.wp-caption.aligleft { margin:0px 7px 0px 7px; }
+.wp-caption img { display:inline-block; margin:0px 0px 4px 0px; padding:0 !important; border:0px; max-width:540px !important; float:none; }
+.wp-caption p.wp-caption-text { display:block; font-size: 11px; line-height: 17px; padding:0px 0px 0px 0px; margin: 0; }
+/* End captions */
+
+/* Begin Calendar */
+#wp-calendar #prev a, #wp-calendar #next a { font-size: 9pt; }
+#wp-calendar a { text-decoration: none; }
+#wp-calendar caption { font-weight:bold; text-align: center; }
+#wp-calendar th { font-style:normal; font-weight:normal; text-transform: capitalize; }
+#wp-calendar { empty-cells: hide; width: 200px; }
+#wp-calendar #next a { padding-right: 10px; text-align: right; }
+#wp-calendar #prev a { padding-left: 10px; text-align: left; }
+#wp-calendar a { display: block; background-color:#D5CEC6; color:#333333; }
+#wp-calendar #today { background-color:#C2BAAD; }
+#wp-calendar caption { text-align: center; width: 100%; }
+#wp-calendar td { text-align: center; background-color:#E6E1DD; }
+#wp-calendar .pad { background-color:#F2F0EE; }
+/* End Calendar */

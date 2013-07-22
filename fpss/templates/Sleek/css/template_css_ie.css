@@ -1,0 +1,13 @@
+/**
+ * @version		$Id$
+ * @package		Frontpage Slideshow (standalone)
+ * @author		JoomlaWorks http://www.joomlaworks.gr
+ * @copyright	Copyright (c) 2006 - 2010 JoomlaWorks, a business unit of Nuevvo Webware Ltd. All rights reserved.
+ * @license		Commercial - This code cannot be redistributed without permission from Nuevvo Webware Ltd.
+ */
+
+.fpss-introtext {_background:#222;}
+.fpss-clr {display:none;}
+
+/* --- Generic Styling (highly recommended) --- */
+#fpss-outer-container a:active, #fpss-outer-container a:focus {outline:expression(hideFocus='true');}

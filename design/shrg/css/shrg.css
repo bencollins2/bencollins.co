@@ -1,0 +1,273 @@
+body {
+    width: 100%;
+    -webkit-transition: font-size 1s;
+}
+
+p {
+    text-align: justify;
+}
+
+div#main {
+    display: block;
+    position: relative;
+    margin: 110px auto 0;
+    max-width: 900px;
+    width: 100%;
+    min-width: 460px;
+    color: #222;
+}
+
+table {
+    margin: 10px 0 30px;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+th:first-child {
+    width: 200px;
+}
+
+tr {
+    background-color: #CCDBEB;
+}
+
+tr:nth-child(2n) {
+    background-color: #F5FBFF;
+
+}
+
+th, td {
+    text-align: left;
+    padding: 4px 17px;
+}
+
+td {
+    font-size: 13px;
+}
+
+.topbar {
+    background: #222 url(../img/topbar.jpg) repeat-x scroll top left;
+    display: block;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 0 10px #222;
+    padding: 0;
+    z-index: 100;
+}
+
+.topbar .container {
+    width: 900px;
+    display: block;
+    position: relative;
+    margin: -8px auto 0;
+    padding: 0;
+    top: 0;
+}
+
+.topbar .container ul {
+    padding: 0;
+}
+
+.topbar .container ul li {
+    color: white;
+    list-style: none;
+}
+
+.topbar .container ul li a, .topbar .container ul li a:visited {
+    color: white;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.topbar .container ul li:first-child {
+
+}
+
+.quicklinks {
+    float: right;
+    display: block;
+    position: relative;
+    background: #F5FBFF;
+    margin: 14px 0 20px 20px;
+    font-size: 14px;
+    padding: 7px 20px 20px;
+    color: #222;
+    font-weight: 100;
+    border: thin solid #CCDBEB;
+}
+
+.quicklinks .head {
+    font-size: 12px;
+    margin: 10px 0 3px;
+    font-weight: bold;
+}
+
+.quicklinks ul {
+
+}
+
+.quicklinks li {
+    list-style: none;
+}
+
+.quicklinks li a {
+    text-decoration: none;
+}
+
+#main h1 {
+    border-bottom: thin dotted #ccc;
+    padding: 0 52px 11px 0;
+    font-size: 28px;
+    display: block;
+    background: url(../img/cloud50.png) no-repeat right 4px scroll;
+}
+
+#main h2 {
+    margin: 0 0 20px;
+    font-size: 18px;
+}
+
+ol {
+    border-top: thin dotted #ccc;
+    font-size: 14px;
+}
+
+ol li {
+    margin: 20px 0 0;
+    font-weight: bold;
+}
+
+ol ul {
+    margin: 0 0 20px 20px;
+}
+
+ol ul li {
+    list-style-type: disc;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.quote {
+    width: 113px;
+    border: thin dotted #aaa;
+    padding: 12px 20px;
+}
+
+.summary .quote {
+    width: 229px;
+    border: none;
+    padding: 0;
+}
+
+.quote p {
+    margin: 0;
+}
+.quote span {
+    font-weight: bold;
+}
+
+.pdf {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 8px;
+    margin: 10px 0;
+    border: 1px solid #1c74b3;
+    border-top-color: #2c8ed1;
+    border-bottom-color: #0d5b97;
+    background: #2181cf;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#37a3eb", endColorstr="#2181cf");
+    background: -webkit-gradient(linear, left top, left bottom, from(#37a3eb), to(#2181cf));
+    background: -moz-linear-gradient(top, #37a3eb, #2181cf);
+    -moz-box-shadow: 0 1px 0 #ddd,inset 0 1px 0 rgba(255,255,255,0.2);
+    -webkit-box-shadow: 0 1px 0 #ddd,inset 0 1px 0 rgba(255,255,255,0.2);
+    box-shadow: 0 1px 0 #ddd,inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: rgba(0,0,0,0.2) 0 1px 0;
+    -webkit-text-shadow: rgba(0,0,0,0.2) 0 1px 0;
+    -moz-text-shadow: rgba(0,0,0,0.2) 0 1px 0;
+    width: 152px;
+}
+
+.pdf a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    background: url(../img/down.png) no-repeat right;
+    padding: 5px;
+}
+
+.summary {
+    background: #F5FBFF;
+    border: thin solid #CCDBEB;
+    padding: 0px 0 24px;
+    margin: 30px 0;
+}
+.summary .content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.contact {
+    margin: 110px 0;
+    padding: 50px 0 50px;
+    border-top: 4px solid #ccc;
+}
+
+.contact .content {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.contact p {
+    margin: 0;
+}
+
+@media all and (max-width: 699px) {
+  body {
+    font-size: .8em;
+  }
+}
+
+@media screen and (max-device-width: 480px){
+    body{
+        width: 100%;
+        display: block;
+        position:relative;
+        overflow:auto;
+        font-size: .8em;
+        word-wrap: break-word !important;
+    }
+
+    p {
+        text-align: left;
+    }
+    
+    html {
+        width: 100%;
+        display:block;
+        position:relative;
+        overflow:auto;
+    }
+    #main {
+        min-width: 10px !important;
+        width: 100%;
+    }
+
+    #main div, #main p, #main h1, #main h2, #main h3, #main ul, #main ol, .summary div, .summary h2, .summary p, .contact p {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}

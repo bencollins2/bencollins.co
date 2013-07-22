@@ -1,0 +1,154 @@
+body {}
+
+div#main {
+    display: block;
+    position: relative;
+    margin: 50px auto 0;
+    width: 900px;
+    color: #222;
+}
+
+.topbar {
+    /*background: #222 url(../img/topbar.jpg) repeat-x scroll top left;*/
+    display: block;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0 0 10px #222;
+    padding: 0;
+    z-index: 100;
+}
+
+.topbar .container {
+    width: 900px;
+    display: block;
+    position: relative;
+    margin: -8px auto 0;
+    padding: 0;
+    top: 0;
+}
+
+.topbar .container ul {
+    padding: 0;
+}
+
+.topbar .container ul li {
+    color: white;
+    list-style: none;
+}
+
+.topbar .container ul li a, .topbar .container ul li a:visited {
+    color: white;
+
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+.topbar .container ul li:first-child {
+
+}
+
+.quicklinks {
+    float: right;
+    background: #F5FBFF;
+    margin: 47px 0 20px 20px;
+    font-size: 14px;
+    padding: 7px 20px 20px;
+    color: #222;
+    font-weight: 100;
+    border: thin solid #CCDBEB;
+}
+
+.quicklinks .head {
+    font-size: 12px;
+    margin: 10px 0 3px;
+    font-weight: bold;
+}
+
+.quicklinks ul {
+
+}
+
+.quicklinks li {
+    list-style: none;
+}
+
+#main h1 {
+    border-bottom: thin dotted #ccc;
+    padding: 0 0 11px;
+    font-size: 28px;
+    display: block;
+    background: url(../img/cloud50q.png) no-repeat right 4px scroll;
+}
+
+#main h2 {
+    margin: 0 0 20px;
+    font-size: 18px;
+}
+
+ol {
+    border-top: thin dotted #ccc;
+    font-size: 14px;
+}
+
+ol li {
+    margin: 20px 0 0;
+    font-weight: bold;
+}
+
+ol ul {
+    margin: 0 0 20px 20px;
+}
+
+ol ul li {
+    list-style-type: disc;
+    margin: 0;
+    font-weight: lighter;
+}
+
+.quote {
+    width: 113px;
+    border: thin dotted #aaa;
+    padding: 12px 20px;
+}
+
+.summary .quote {
+    width: 229px;
+    border: none;
+    padding: 0;
+}
+
+.quote p {
+    margin: 0;
+}
+.quote span {
+    font-weight: bold;
+}
+
+.summary {
+   /* background: #F5FBFF;
+    border: thin solid #CCDBEB;*/
+    padding: 0px 0 24px;
+    margin: 30px 0;
+}
+.summary .content {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.contact {
+    padding: 0 0 50px;
+    border-bottom: 4px solid #222;
+}
+
+.contact .content {
+    width: 900px;
+    margin: 0 auto;
+    font-size: 13px;
+}
+.contact p {
+    margin: 0;
+}
